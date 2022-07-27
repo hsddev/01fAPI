@@ -1,0 +1,22 @@
+{
+    "name": "hubspotapi",
+    "version": "1.0.0",
+    "description": "hubspot api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.mjs"
+    },
+    "author": "jddev",
+    "license": "ISC",
+    "dependencies": {
+        "@01-edu/api": "^1.1.0",
+        "@hubspot/api-client": "^5.0.0",
+        "async": "^3.2.3",
+        "axios": "^0.24.0",
+        "csvtojson": "^2.0.10",
+        "express": "^4.17.2",
+        "fs": "0.0.1-security",
+        "util": "^0.12.4"
+    }
+}
